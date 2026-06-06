@@ -2,7 +2,7 @@
 
 Control Spotify directly from your Ulanzi device, with no API keys, no OAuth, and no running servers required.
 
-![Screenshot](Screenshot%202026-06-06%20at%203.31.37%20PM.png)
+![Screenshot](screenshot.png)
 
 ---
 
