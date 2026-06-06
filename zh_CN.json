@@ -1,0 +1,62 @@
+{
+  "Description": "Spotify 集成",
+  "Name": "Spotify",
+  "Actions": [
+    {
+      "Name": "播放/暂停",
+      "Tooltip": "在当前设备上播放/暂停"
+    },
+    {
+      "Name": "上一个轨道",
+      "Tooltip": "播放上一个轨道"
+    },
+    {
+      "Name": "下一个轨道",
+      "Tooltip": "播放下一个轨道"
+    },
+    {
+      "Name": "切换随机播放",
+      "Tooltip": "切换随机播放"
+    },
+    {
+      "Name": "切换重复播放",
+      "Tooltip": "切换重复播放"
+    },
+    {
+      "Name": "切换静音",
+      "Tooltip": "切换静音"
+    },
+    {
+      "Name": "音量",
+      "Tooltip": "设置音量"
+    },
+    {
+      "Name": "音量上调",
+      "Tooltip": "在当前设备上增加音量"
+    },
+    {
+      "Name": "音量下调",
+      "Tooltip": "在当前设备上降低音量"
+    },
+    {
+      "Name": "正在播放",
+      "Tooltip": "显示专辑封面及歌曲和艺术家信息"
+    },
+    {
+      "Name": "播放控制器",
+      "Tooltip": "在当前设备上播放/暂停/下一首/上一首"
+    },
+    {
+      "Name": "音量控制器",
+      "Tooltip": "旋转调节音量，按下切换静音"
+    }
+  ],
+  "Localization": {
+    "Volume Down": "降低音量",
+    "Volume Up": "提高音量",
+    "Volume Value": "音量值",
+    "Toggle Shuffle Mode": "切换随机播放模式",
+    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "切换循环播放模式：关闭循环播放 | 单曲循环 | 播放列表循环",
+    "Volume Step": "音量调节步长"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "Description": "Spotify 통합",
+  "Name": "Spotify",
+  "Actions": [
+    {
+      "Name": "재생/일시정지",
+      "Tooltip": "현재 기기에서 재생/일시정지"
+    },
+    {
+      "Name": "이전 트랙",
+      "Tooltip": "이전 트랙 재생"
+    },
+    {
+      "Name": "다음 트랙",
+      "Tooltip": "다음 트랙 재생"
+    },
+    {
+      "Name": "셔플 전환",
+      "Tooltip": "현재 기기에서 셔플 전환"
+    },
+    {
+      "Name": "반복 전환",
+      "Tooltip": "현재 기기에서 반복 전환"
+    },
+    {
+      "Name": "음소거 전환",
+      "Tooltip": "현재 기기에서 음소거 전환"
+    },
+    {
+      "Name": "볼륨 설정",
+      "Tooltip": "현재 기기에서 볼륨 설정"
+    },
+    {
+      "Name": "볼륨 높이기",
+      "Tooltip": "현재 기기에서 볼륨 높이기"
+    },
+    {
+      "Name": "볼륨 낮추기",
+      "Tooltip": "현재 기기에서 볼륨 낮추기"
+    },
+    {
+      "Name": "지금 재생 중",
+      "Tooltip": "앨범 아트와 곡 및 아티스트 정보 표시"
+    },
+    {
+      "Name": "재생 컨트롤",
+      "Tooltip": "현재 기기에서 재생/일시정지/다음/이전"
+    },
+    {
+      "Name": "볼륨 컨트롤",
+      "Tooltip": "회전으로 볼륨 조절, 누르면 음소거 전환"
+    }
+  ],
+  "Localization": {
+    "Volume Down": "볼륨 낮추기",
+    "Volume Up": "볼륨 높이기",
+    "Volume Value": "볼륨 값",
+    "Toggle Shuffle Mode": "셔플 모드 전환",
+    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "반복 모드 전환: 끄기 | 트랙 | 플레이리스트",
+    "Volume Step": "볼륨 단계"
+  }
+}

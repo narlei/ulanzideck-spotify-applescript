@@ -1,0 +1,62 @@
+{
+  "Description": "Integração com Spotify",
+  "Name": "Spotify",
+  "Actions": [
+    {
+      "Name": "Reproduzir/Pausar",
+      "Tooltip": "Reproduzir/Pausar no dispositivo atual"
+    },
+    {
+      "Name": "Faixa anterior",
+      "Tooltip": "Reproduzir faixa anterior"
+    },
+    {
+      "Name": "Próxima faixa",
+      "Tooltip": "Reproduzir próxima faixa"
+    },
+    {
+      "Name": "Alternar aleatório",
+      "Tooltip": "Alternar reprodução aleatória no dispositivo atual"
+    },
+    {
+      "Name": "Alternar repetição",
+      "Tooltip": "Alternar repetição no dispositivo atual"
+    },
+    {
+      "Name": "Alternar silêncio",
+      "Tooltip": "Alternar silêncio no dispositivo atual"
+    },
+    {
+      "Name": "Definir volume",
+      "Tooltip": "Definir volume no dispositivo atual"
+    },
+    {
+      "Name": "Aumentar volume",
+      "Tooltip": "Aumentar volume no dispositivo atual"
+    },
+    {
+      "Name": "Diminuir volume",
+      "Tooltip": "Diminuir volume no dispositivo atual"
+    },
+    {
+      "Name": "A reproduzir",
+      "Tooltip": "Mostra a capa do álbum com informação da música e artista"
+    },
+    {
+      "Name": "Controlo de reprodução",
+      "Tooltip": "Reproduzir/Pausar/Próxima/Anterior no dispositivo atual"
+    },
+    {
+      "Name": "Controlo de volume",
+      "Tooltip": "Ajustar volume rodando, alternar silêncio premindo"
+    }
+  ],
+  "Localization": {
+    "Volume Down": "Diminuir volume",
+    "Volume Up": "Aumentar volume",
+    "Volume Value": "Valor do volume",
+    "Toggle Shuffle Mode": "Alternar modo aleatório",
+    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Alternar modo de repetição: DESLIGADO | FAIXA | LISTA",
+    "Volume Step": "Passo do volume"
+  }
+}

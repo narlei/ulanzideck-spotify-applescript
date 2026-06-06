@@ -1,0 +1,145 @@
+{
+  "Author": "Ulanzi",
+  "Name": "Spotify",
+  "Description": "Spotify integration.",
+  "Category": "Spotify",
+  "CategoryIcon": "assets/category_spotify.png",
+  "Version": "1.6.3",
+  "UUID": "com.ulanzi.ulanzideck.spotify",
+  "CodePath": "app/index.js",
+  "Icon": "assets/btn_spotify_logo.png",
+  "Type": "JavaScript",
+  "PrivateAPI": true,
+  "OS": [
+    { "MinimumVersion": "10.11", "Platform": "mac" },
+    { "MinimumVersion": "10", "Platform": "windows" }
+  ],
+  "Software": { "MinVersion": "2.1.0" },
+  "Actions": [
+    {
+      "Icon": "assets/spotify_toggle_play_on_white.png",
+      "Name": "Play/Pause",
+      "PropertyInspectorPath": "property-inspectors/play/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_play.png", "Name": "Play" },
+        { "Image": "assets/btn_spotify_pause.png", "Name": "Pause" }
+      ],
+      "Tooltip": "Play/Pause on current device",
+      "UUID": "com.ulanzi.ulanzideck.spotify.play"
+    },
+    {
+      "Icon": "assets/spotify_prev.png",
+      "Name": "Previous Track",
+      "PropertyInspectorPath": "property-inspectors/previous/index.html",
+      "States": [{ "Image": "assets/btn_spotify_prev.png" }],
+      "Tooltip": "Play previous track",
+      "UUID": "com.ulanzi.ulanzideck.spotify.previous"
+    },
+    {
+      "Icon": "assets/spotify_next.png",
+      "Name": "Next Track",
+      "PropertyInspectorPath": "property-inspectors/next/index.html",
+      "States": [{ "Image": "assets/btn_spotify_next.png" }],
+      "Tooltip": "Play Next track",
+      "UUID": "com.ulanzi.ulanzideck.spotify.next"
+    },
+    {
+      "Icon": "assets/spotify_toggle_shuffle_on_white.png",
+      "Name": "Toggle Shuffle",
+      "PropertyInspectorPath": "property-inspectors/shuffle/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_shuffle.png", "Name": "On" },
+        { "Image": "assets/btn_spotify_shuffle_off.png", "Name": "Off" }
+      ],
+      "Tooltip": "Toggle shuffle on current device",
+      "UUID": "com.ulanzi.ulanzideck.spotify.shuffle"
+    },
+    {
+      "Icon": "assets/spotify_repeat.png",
+      "Name": "Toggle Repeat",
+      "PropertyInspectorPath": "property-inspectors/repeat/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_repeat_context.png", "Name": "Context" },
+        { "Image": "assets/btn_spotify_repeat_track.png", "Name": "track" },
+        { "Image": "assets/btn_spotify_repeat_off.png", "Name": "Off" }
+      ],
+      "Tooltip": "Toggle repeat on current device",
+      "UUID": "com.ulanzi.ulanzideck.spotify.repeat"
+    },
+    {
+      "Icon": "assets/spotify_volume_mute.png",
+      "Name": "Toggle Volume Mute",
+      "PropertyInspectorPath": "property-inspectors/volume-mute/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_volume_mute.png", "Name": "Mute" }
+      ],
+      "Tooltip": "Toggle volume mute on current device",
+      "UUID": "com.ulanzi.ulanzideck.spotify.volumemute"
+    },
+    {
+      "Icon": "assets/spotify_volume_set.png",
+      "Name": "Volume Set",
+      "PropertyInspectorPath": "property-inspectors/volume-set/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_volume_set.png", "Name": "Set" }
+      ],
+      "Tooltip": "Set volume on current device",
+      "UUID": "com.ulanzi.ulanzideck.spotify.volumeset"
+    },
+    {
+      "Icon": "assets/spotify_volume_up.png",
+      "Name": "Volume Up",
+      "PropertyInspectorPath": "property-inspectors/volume-up/index.html",
+      "States": [{ "Image": "assets/btn_spotify_volume_up.png", "Name": "Up" }],
+      "Tooltip": "Increase volume on current device",
+      "UUID": "com.ulanzi.ulanzideck.spotify.volumeup"
+    },
+    {
+      "Icon": "assets/spotify_volume_down.png",
+      "Name": "Volume Down",
+      "PropertyInspectorPath": "property-inspectors/volume-down/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_volume_down.png", "Name": "Down" }
+      ],
+      "Tooltip": "Decrease volume on current device",
+      "UUID": "com.ulanzi.ulanzideck.spotify.volumedown"
+    },
+    {
+      "Icon": "assets/btn_spotify_logo.png",
+      "Name": "Now Playing",
+      "PropertyInspectorPath": "property-inspectors/now-playing/index.html",
+      "States": [{ "Image": "assets/btn_spotify_play.png", "Name": "Now Playing" }],
+      "Tooltip": "Shows album art with scrolling song and artist info",
+      "UUID": "com.ulanzi.ulanzideck.spotify.nowplaying"
+    },
+    {
+      "Icon": "assets/spotify_toggle_play_on_white.png",
+      "Name": "Play Control",
+      "PropertyInspectorPath": "property-inspectors/play-controller/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_play.png", "Name": "Play" },
+        { "Image": "assets/btn_spotify_pause.png", "Name": "Pause" },
+        { "Image": "assets/btn_spotify_next.png", "Name": "Next" },
+        { "Image": "assets/btn_spotify_prev.png", "Name": "Previous" }
+      ],
+      "Tooltip": "Play/Pause/Next/Previous on current device",
+      "Controllers": ["Encoder"],
+      "Encoder": {
+        "layout": "$UA1"
+      },
+      "UUID": "com.ulanzi.ulanzideck.spotify.playcontroller"
+    },
+    {
+      "Icon": "assets/spotify_volume_white.png",
+      "Name": "Volume Control",
+      "PropertyInspectorPath": "property-inspectors/volume-controller/index.html",
+      "States": [
+        { "Image": "assets/btn_spotify_volume_up.png", "Name": "Volume" },
+        { "Image": "assets/btn_spotify_volume_mute.png", "Name": "Mute" }
+      ],
+      "Tooltip": "Adjust volume by rotation, toggle mute by press",
+      "Controllers": ["Encoder"],
+      "UUID": "com.ulanzi.ulanzideck.spotify.volumecontroller"
+    }
+  ]
+}

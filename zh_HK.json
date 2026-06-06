@@ -1,0 +1,62 @@
+{
+  "Description": "Spotify 整合",
+  "Name": "Spotify",
+  "Actions": [
+    {
+      "Name": "播放/暫停",
+      "Tooltip": "在目前裝置上播放/暫停"
+    },
+    {
+      "Name": "上一首歌曲",
+      "Tooltip": "播放上一首歌曲"
+    },
+    {
+      "Name": "下一首歌曲",
+      "Tooltip": "播放下一首歌曲"
+    },
+    {
+      "Name": "切換隨機播放",
+      "Tooltip": "在目前裝置上切換隨機播放"
+    },
+    {
+      "Name": "切換重複播放",
+      "Tooltip": "在目前裝置上切換重複播放"
+    },
+    {
+      "Name": "切換靜音",
+      "Tooltip": "在目前裝置上切換靜音"
+    },
+    {
+      "Name": "設定音量",
+      "Tooltip": "在目前裝置上設定音量"
+    },
+    {
+      "Name": "調高音量",
+      "Tooltip": "在目前裝置上調高音量"
+    },
+    {
+      "Name": "調低音量",
+      "Tooltip": "在目前裝置上調低音量"
+    },
+    {
+      "Name": "正在播放",
+      "Tooltip": "顯示專輯封面及歌曲和藝術家資訊"
+    },
+    {
+      "Name": "播放控制器",
+      "Tooltip": "在目前裝置上播放/暫停/下一首/上一首"
+    },
+    {
+      "Name": "音量控制器",
+      "Tooltip": "旋轉調節音量，按下切換靜音"
+    }
+  ],
+  "Localization": {
+    "Volume Down": "調低音量",
+    "Volume Up": "調高音量",
+    "Volume Value": "音量值",
+    "Toggle Shuffle Mode": "切換隨機播放模式",
+    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "切換重複模式：關閉 | 單曲 | 播放列表/專輯",
+    "Volume Step": "音量調節步長"
+  }
+}

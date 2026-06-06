@@ -1,0 +1,62 @@
+{
+  "Description": "Spotify integration",
+  "Name": "Spotify",
+  "Actions": [
+    {
+      "Name": "Play/Pause",
+      "Tooltip": "Play/Pause on current device"
+    },
+    {
+      "Name": "Previous Track",
+      "Tooltip": "Play previous track"
+    },
+    {
+      "Name": "Next Track",
+      "Tooltip": "Play Next track"
+    },
+    {
+      "Name": "Toggle Shuffle",
+      "Tooltip": "Toggle shuffle on current device"
+    },
+    {
+      "Name": "Toggle Repeat",
+      "Tooltip": "Toggle repeat on current device"
+    },
+    {
+      "Name": "Toggle Volume Mute",
+      "Tooltip": "Toggle volume mute on current device"
+    },
+    {
+      "Name": "Volume Set",
+      "Tooltip": "Set volume on current device"
+    },
+    {
+      "Name": "Volume Up",
+      "Tooltip": "Increase volume on current device"
+    },
+    {
+      "Name": "Volume Down",
+      "Tooltip": "Decrease volume on current device"
+    },
+    {
+      "Name": "Now Playing",
+      "Tooltip": "Shows album art with song and artist info"
+    },
+    {
+      "Name": "Play Control",
+      "Tooltip": "Play/Pause/Next/Previous on current device"
+    },
+    {
+      "Name": "Volume Control",
+      "Tooltip": "Adjust volume by rotation, toggle mute by press"
+    }
+  ],
+  "Localization": {
+    "Volume Down": "Volume Down",
+    "Volume Up": "Volume Up",
+    "Volume Value": "Volume Value",
+    "Toggle Shuffle Mode": "Toggle Shuffle Mode",
+    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Toggle Repeat Mode: OFF | TRACK | CONTEXT",
+    "Volume Step": "Volume Step"
+  }
+}

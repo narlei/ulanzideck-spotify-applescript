@@ -1,0 +1,62 @@
+{
+  "Description": "Spotify-Integration",
+  "Name": "Spotify",
+  "Actions": [
+    {
+      "Name": "Wiedergabe/Pause",
+      "Tooltip": "Wiedergabe/Pause auf dem aktuellen Gerät"
+    },
+    {
+      "Name": "Vorheriger Titel",
+      "Tooltip": "Vorherigen Titel abspielen"
+    },
+    {
+      "Name": "Nächster Titel",
+      "Tooltip": "Nächsten Titel abspielen"
+    },
+    {
+      "Name": "Zufallswiedergabe umschalten",
+      "Tooltip": "Zufallswiedergabe auf dem aktuellen Gerät umschalten"
+    },
+    {
+      "Name": "Wiederholung umschalten",
+      "Tooltip": "Wiederholung auf dem aktuellen Gerät umschalten"
+    },
+    {
+      "Name": "Stummschaltung umschalten",
+      "Tooltip": "Stummschaltung auf dem aktuellen Gerät umschalten"
+    },
+    {
+      "Name": "Lautstärke einstellen",
+      "Tooltip": "Lautstärke auf dem aktuellen Gerät einstellen"
+    },
+    {
+      "Name": "Lauter",
+      "Tooltip": "Lautstärke auf dem aktuellen Gerät erhöhen"
+    },
+    {
+      "Name": "Leiser",
+      "Tooltip": "Lautstärke auf dem aktuellen Gerät verringern"
+    },
+    {
+      "Name": "Läuft gerade",
+      "Tooltip": "Zeigt Albumcover mit Lied- und Künstlerinformation"
+    },
+    {
+      "Name": "Wiedergabesteuerung",
+      "Tooltip": "Wiedergabe/Pause/Nächster/Vorheriger auf dem aktuellen Gerät"
+    },
+    {
+      "Name": "Lautstärkeregler",
+      "Tooltip": "Lautstärke durch Drehen anpassen, Stummschaltung durch Drücken umschalten"
+    }
+  ],
+  "Localization": {
+    "Volume Down": "Leiser",
+    "Volume Up": "Lauter",
+    "Volume Value": "Lautstärkewert",
+    "Toggle Shuffle Mode": "Zufallswiedergabe-Modus umschalten",
+    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Wiederholungsmodus umschalten: AUS | TITEL | PLAYLIST/ALBUM",
+    "Volume Step": "Lautstärkeschritt"
+  }
+}
