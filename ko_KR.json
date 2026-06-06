@@ -49,6 +49,10 @@
     {
       "Name": "볼륨 컨트롤",
       "Tooltip": "회전으로 볼륨 조절, 누르면 음소거 전환"
+    },
+    {
+      "Name": "탐색 컨트롤",
+      "Tooltip": "회전으로 앞/뒤로 이동, 누르면 트랙 처음부터 재생"
     }
   ],
   "Localization": {
@@ -56,7 +60,6 @@
     "Volume Up": "볼륨 높이기",
     "Volume Value": "볼륨 값",
     "Toggle Shuffle Mode": "셔플 모드 전환",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "반복 모드 전환: 끄기 | 트랙 | 플레이리스트",
     "Volume Step": "볼륨 단계"
   }
 }

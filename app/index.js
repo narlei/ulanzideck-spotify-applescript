@@ -20,6 +20,7 @@ const A = {
   nowPlaying:       'com.ulanzi.ulanzideck.spotify.nowplaying',
   playController:   'com.ulanzi.ulanzideck.spotify.playcontroller',
   volumeController: 'com.ulanzi.ulanzideck.spotify.volumecontroller',
+  seekController:   'com.ulanzi.ulanzideck.spotify.seekcontroller',
 };
 
 // ── AppleScript helper ────────────────────────────────────────────────────────
@@ -313,6 +314,10 @@ async function handleAction(uuid, actionid, key, param) {
         break;
       }
 
+      case A.seekController:
+        await osascript('tell application "Spotify" to set player position to 0');
+        break;
+
     }
   } catch {
     // Spotify may not be running or another transient error
@@ -334,6 +339,16 @@ async function handleDialRotate(uuid, actionid, key, param, rotateEvent) {
         '  if v > 100 then set v to 100\n' +
         '  if v < 0 then set v to 0\n' +
         '  set sound volume to v\n' +
+        'end tell'
+      );
+    } else if (uuid === A.seekController) {
+      const step = parseInt(param.seekStep, 10) || 15;
+      const delta = isRight ? step : -step;
+      await osascript(
+        'tell application "Spotify"\n' +
+        `  set p to player position + (${delta})\n` +
+        '  if p < 0 then set p to 0\n' +
+        '  set player position to p\n' +
         'end tell'
       );
     }

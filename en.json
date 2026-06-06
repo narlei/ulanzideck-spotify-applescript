@@ -49,6 +49,10 @@
     {
       "Name": "Volume Control",
       "Tooltip": "Adjust volume by rotation, toggle mute by press"
+    },
+    {
+      "Name": "Seek Control",
+      "Tooltip": "Rotate to seek forward/back, press to restart track"
     }
   ],
   "Localization": {
@@ -56,7 +60,6 @@
     "Volume Up": "Volume Up",
     "Volume Value": "Volume Value",
     "Toggle Shuffle Mode": "Toggle Shuffle Mode",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Toggle Repeat Mode: OFF | TRACK | CONTEXT",
     "Volume Step": "Volume Step"
   }
 }

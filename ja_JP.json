@@ -49,6 +49,10 @@
     {
       "Name": "音量コントローラー",
       "Tooltip": "回転で音量調整、押してミュート切り替え"
+    },
+    {
+      "Name": "シークコントロール",
+      "Tooltip": "回転でシーク、押して曲を最初から再生"
     }
   ],
   "Localization": {
@@ -56,7 +60,6 @@
     "Volume Up": "音量を上げる",
     "Volume Value": "音量値",
     "Toggle Shuffle Mode": "シャッフルモード切り替え",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "リピートモード切り替え: オフ | 曲 | アルバム/プレイリスト",
     "Volume Step": "音量ステップ"
   }
 }

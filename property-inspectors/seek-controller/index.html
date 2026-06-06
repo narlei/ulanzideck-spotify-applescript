@@ -12,18 +12,18 @@
 </head>
 <body>
   <div class="row">
-    <label>Volume (%)</label>
-    <input type="number" id="volumeValue" min="0" max="100" value="50"/>
+    <label>Seek Step (seconds)</label>
+    <input type="number" id="seekStep" min="1" max="120" value="15"/>
   </div>
-  <p>Set the volume to a specific percentage (0–100).</p>
+  <p>Rotate to seek forward or back by the step value.<br>Press to restart the track from the beginning.</p>
   <script>
-    const input = document.getElementById('volumeValue');
+    const input = document.getElementById('seekStep');
     window.addEventListener('message', e => {
       const d = e.data;
-      if (d && d.volumeValue !== undefined) input.value = d.volumeValue;
+      if (d && d.seekStep) input.value = d.seekStep;
     });
     input.addEventListener('change', () => {
-      window.parent.postMessage({ volumeValue: parseInt(input.value, 10) || 50 }, '*');
+      window.parent.postMessage({ seekStep: parseInt(input.value, 10) || 15 }, '*');
     });
   </script>
 </body>

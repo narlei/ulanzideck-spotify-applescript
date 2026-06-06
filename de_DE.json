@@ -49,6 +49,10 @@
     {
       "Name": "Lautstärkeregler",
       "Tooltip": "Lautstärke durch Drehen anpassen, Stummschaltung durch Drücken umschalten"
+    },
+    {
+      "Name": "Suchlauf",
+      "Tooltip": "Drehen zum Vor-/Zurückspulen, Drücken zum Neustart"
     }
   ],
   "Localization": {
@@ -56,7 +60,6 @@
     "Volume Up": "Lauter",
     "Volume Value": "Lautstärkewert",
     "Toggle Shuffle Mode": "Zufallswiedergabe-Modus umschalten",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Wiederholungsmodus umschalten: AUS | TITEL | PLAYLIST/ALBUM",
     "Volume Step": "Lautstärkeschritt"
   }
 }

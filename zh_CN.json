@@ -49,6 +49,10 @@
     {
       "Name": "音量控制器",
       "Tooltip": "旋转调节音量，按下切换静音"
+    },
+    {
+      "Name": "快进/快退",
+      "Tooltip": "旋转前进或后退，按下从头播放"
     }
   ],
   "Localization": {
@@ -56,7 +60,6 @@
     "Volume Up": "提高音量",
     "Volume Value": "音量值",
     "Toggle Shuffle Mode": "切换随机播放模式",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "切换循环播放模式：关闭循环播放 | 单曲循环 | 播放列表循环",
     "Volume Step": "音量调节步长"
   }
 }

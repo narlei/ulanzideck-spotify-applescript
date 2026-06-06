@@ -1,25 +1,23 @@
 {
-  "Author": "Ulanzi",
+  "Author": "github.com/ragibs",
   "Name": "Spotify",
-  "Description": "Spotify integration.",
+  "Description": "Spotify integration (AppleScript fork by github.com/ragibs — no API keys or OAuth required).",
   "Category": "Spotify",
   "CategoryIcon": "assets/category_spotify.png",
-  "Version": "1.6.3",
+  "Version": "2.0.0",
   "UUID": "com.ulanzi.ulanzideck.spotify",
   "CodePath": "app/index.js",
   "Icon": "assets/btn_spotify_logo.png",
   "Type": "JavaScript",
   "PrivateAPI": true,
   "OS": [
-    { "MinimumVersion": "10.11", "Platform": "mac" },
-    { "MinimumVersion": "10", "Platform": "windows" }
+    { "MinimumVersion": "10.11", "Platform": "mac" }
   ],
   "Software": { "MinVersion": "2.1.0" },
   "Actions": [
     {
       "Icon": "assets/spotify_toggle_play_on_white.png",
       "Name": "Play/Pause",
-      "PropertyInspectorPath": "property-inspectors/play/index.html",
       "States": [
         { "Image": "assets/btn_spotify_play.png", "Name": "Play" },
         { "Image": "assets/btn_spotify_pause.png", "Name": "Pause" }
@@ -30,7 +28,6 @@
     {
       "Icon": "assets/spotify_prev.png",
       "Name": "Previous Track",
-      "PropertyInspectorPath": "property-inspectors/previous/index.html",
       "States": [{ "Image": "assets/btn_spotify_prev.png" }],
       "Tooltip": "Play previous track",
       "UUID": "com.ulanzi.ulanzideck.spotify.previous"
@@ -38,7 +35,6 @@
     {
       "Icon": "assets/spotify_next.png",
       "Name": "Next Track",
-      "PropertyInspectorPath": "property-inspectors/next/index.html",
       "States": [{ "Image": "assets/btn_spotify_next.png" }],
       "Tooltip": "Play Next track",
       "UUID": "com.ulanzi.ulanzideck.spotify.next"
@@ -46,7 +42,6 @@
     {
       "Icon": "assets/spotify_toggle_shuffle_on_white.png",
       "Name": "Toggle Shuffle",
-      "PropertyInspectorPath": "property-inspectors/shuffle/index.html",
       "States": [
         { "Image": "assets/btn_spotify_shuffle.png", "Name": "On" },
         { "Image": "assets/btn_spotify_shuffle_off.png", "Name": "Off" }
@@ -57,7 +52,6 @@
     {
       "Icon": "assets/spotify_repeat.png",
       "Name": "Toggle Repeat",
-      "PropertyInspectorPath": "property-inspectors/repeat/index.html",
       "States": [
         { "Image": "assets/btn_spotify_repeat_context.png", "Name": "Context" },
         { "Image": "assets/btn_spotify_repeat_track.png", "Name": "track" },
@@ -69,7 +63,6 @@
     {
       "Icon": "assets/spotify_volume_mute.png",
       "Name": "Toggle Volume Mute",
-      "PropertyInspectorPath": "property-inspectors/volume-mute/index.html",
       "States": [
         { "Image": "assets/btn_spotify_volume_mute.png", "Name": "Mute" }
       ],
@@ -89,7 +82,6 @@
     {
       "Icon": "assets/spotify_volume_up.png",
       "Name": "Volume Up",
-      "PropertyInspectorPath": "property-inspectors/volume-up/index.html",
       "States": [{ "Image": "assets/btn_spotify_volume_up.png", "Name": "Up" }],
       "Tooltip": "Increase volume on current device",
       "UUID": "com.ulanzi.ulanzideck.spotify.volumeup"
@@ -97,7 +89,6 @@
     {
       "Icon": "assets/spotify_volume_down.png",
       "Name": "Volume Down",
-      "PropertyInspectorPath": "property-inspectors/volume-down/index.html",
       "States": [
         { "Image": "assets/btn_spotify_volume_down.png", "Name": "Down" }
       ],
@@ -107,7 +98,6 @@
     {
       "Icon": "assets/btn_spotify_logo.png",
       "Name": "Now Playing",
-      "PropertyInspectorPath": "property-inspectors/now-playing/index.html",
       "States": [{ "Image": "assets/btn_spotify_play.png", "Name": "Now Playing" }],
       "Tooltip": "Shows album art with scrolling song and artist info",
       "UUID": "com.ulanzi.ulanzideck.spotify.nowplaying"
@@ -115,7 +105,6 @@
     {
       "Icon": "assets/spotify_toggle_play_on_white.png",
       "Name": "Play Control",
-      "PropertyInspectorPath": "property-inspectors/play-controller/index.html",
       "States": [
         { "Image": "assets/btn_spotify_play.png", "Name": "Play" },
         { "Image": "assets/btn_spotify_pause.png", "Name": "Pause" },
@@ -140,6 +129,15 @@
       "Tooltip": "Adjust volume by rotation, toggle mute by press",
       "Controllers": ["Encoder"],
       "UUID": "com.ulanzi.ulanzideck.spotify.volumecontroller"
+    },
+    {
+      "Icon": "assets/spotify_next.png",
+      "Name": "Seek Control",
+      "PropertyInspectorPath": "property-inspectors/seek-controller/index.html",
+      "States": [{ "Image": "assets/btn_spotify_play.png", "Name": "Seek" }],
+      "Tooltip": "Rotate to seek forward/back, press to restart track",
+      "Controllers": ["Encoder"],
+      "UUID": "com.ulanzi.ulanzideck.spotify.seekcontroller"
     }
   ]
 }

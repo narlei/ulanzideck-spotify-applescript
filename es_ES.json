@@ -49,6 +49,10 @@
     {
       "Name": "Control de volumen",
       "Tooltip": "Ajustar volumen girando, alternar silencio pulsando"
+    },
+    {
+      "Name": "Control de búsqueda",
+      "Tooltip": "Gira para avanzar/retroceder, pulsa para reiniciar"
     }
   ],
   "Localization": {
@@ -56,7 +60,6 @@
     "Volume Up": "Subir volumen",
     "Volume Value": "Valor de volumen",
     "Toggle Shuffle Mode": "Alternar modo aleatorio",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Alternar modo de repetición: DESACTIVADO | PISTA | LISTA",
     "Volume Step": "Paso de volumen"
   }
 }

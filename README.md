@@ -2,6 +2,8 @@
 
 Control Spotify directly from your Ulanzi device, with no API keys, no OAuth, and no running servers required.
 
+![Screenshot](Screenshot%202026-06-06%20at%203.31.37%20PM.png)
+
 ---
 
 ## Background & Credits
@@ -28,13 +30,28 @@ This version replaces all API calls with **macOS AppleScript**, talking directly
 ## Installation
 
 1. Download or clone this repository
-2. Copy the `com.ulanzi.spotify.ulanziPlugin` folder into your UlanziDeck plugins directory:
+2. Navigate to your UlanziDeck plugins directory:
    ```
    ~/Library/Application Support/Ulanzi/UlanziDeck/Plugins/
    ```
-3. Restart UlanziDeck
-4. Open Spotify on your Mac
-5. Drag any Spotify action onto a button in UlanziDeck — it will start working immediately
+3. Create a new folder inside `Plugins` named **exactly**:
+   ```
+   com.ulanzi.spotify.ulanziPlugin
+   ```
+4. Copy all the files from this repository into that folder. Your structure should look like:
+   ```
+   Plugins/
+   └── com.ulanzi.spotify.ulanziPlugin/
+       ├── app/
+       │   └── index.js
+       ├── assets/
+       ├── property-inspectors/
+       ├── manifest.json
+       └── ...
+   ```
+5. Restart UlanziDeck
+6. Open Spotify on your Mac
+7. Drag any Spotify action onto a button in UlanziDeck — it will start working immediately
 
 > No login, no setup wizard, no configuration required.
 
@@ -63,6 +80,7 @@ This version replaces all API calls with **macOS AppleScript**, talking directly
 |--------|-------------|
 | **Play Control** | Press to play/pause. Rotate right for next track, left for previous. |
 | **Volume Control** | Press to mute/unmute. Rotate to adjust volume. |
+| **Seek Control** | Press to restart the track from the beginning. Rotate right to seek forward, left to seek back. Step size is configurable in settings (default 15 seconds). |
 
 ---
 
@@ -132,6 +150,7 @@ Because this plugin uses AppleScript instead of the Spotify Web API, a few thing
 | Feature | Description |
 |---------|-------------|
 | **Now Playing button** | Shows the current track's album art on the button. Song name and artist alternate as text every 2 seconds, overlaid on the art with a gradient and drop shadow. |
+| **Seek Control dial** | New encoder action — rotate to seek forward or back by a configurable number of seconds (default 15s). Press to restart the track from the beginning. |
 | **Instant state feedback** | Pressing play/pause, shuffle, or repeat now immediately updates the button icon — no waiting for the next poll cycle. |
 | **Zero-dependency WebSocket client** | The original plugin bundled the `ws` npm package (89KB minified). This version implements the WebSocket protocol from scratch using only Node.js built-ins, so there is no `node_modules` folder needed. |
 
