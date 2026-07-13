@@ -4,7 +4,7 @@
   "Description": "Spotify integration (AppleScript fork by github.com/ragibs — no API keys or OAuth required).",
   "Category": "Spotify",
   "CategoryIcon": "assets/category_spotify.png",
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "UUID": "com.ulanzi.ulanzideck.spotify",
   "CodePath": "app/index.js",
   "Icon": "assets/btn_spotify_logo.png",
